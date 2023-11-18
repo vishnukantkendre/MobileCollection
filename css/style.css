@@ -1,0 +1,173 @@
+*{
+    padding-left: 5px;
+    color: white;
+
+
+}
+body{
+   
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #26001B;
+    
+}
+
+
+.navigation{
+    padding-left: 0px;
+    font-family: var(--font1);
+    height: 65px;
+   margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 8px;
+    background-color: #40394A;
+    
+
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+    
+}
+
+.nav-left ul {
+    
+    display: flex;
+    
+}
+.nav-left ul li{
+    padding-right: 100px;
+    margin: 15px;
+    
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-right{
+    font-size: 10px;
+    padding-right: 40px;
+}
+
+/* link decoration  */
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+
+.content{
+    height: 95px;
+    display: flex;
+    /*background-color: aliceblue; */
+   
+
+}
+
+.content-center{
+    text-align: center;
+    color: #FF7700;
+    
+
+}
+.content-left{
+    padding-left: 120px;
+    padding-right: 10%;
+   
+
+}
+
+.form-input{
+    padding: 2px 5px;
+    font-size: 11px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5px 13px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.btn{
+    padding: 1px 3px;
+    border-radius: 4px;
+   font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+
+.slideshow{
+    display: flex;
+   
+
+    width: 803px;
+    height: 171px;
+    position: absolute;
+    left: 50%;
+    top: 34%;
+    border: 2px solid black;
+    border-radius: 14px;
+   
+   
+    transform: translate(-50% ,-50%);
+    background-image: url("https://th.bing.com/th/id/OIP.CbGcvrsMEsj3A-xdbRmgYQHaEK?w=326&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+ 
+  
+  animation: slider 7s infinite linear;
+}
+
+@keyframes slider{
+    0%{background-image: url("https://th.bing.com/th/id/OIP.CbGcvrsMEsj3A-xdbRmgYQHaEK?w=326&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    }
+    35%{background-image: url("https://th.bing.com/th/id/OIP.X6g2W5qUzxDBvWQmiCaP0AAAAA?pid=ImgDet&w=207&h=130&c=7&dpr=1.3"); 
+    }
+    75%{background-image: url("https://th.bing.com/th/id/OIP.EVKACIaS01mr2Oy4gIZ-vwHaE7?pid=ImgDet&w=207&h=138&c=7&dpr=1.3");
+     }
+    100%{background-image: url("img\1681273838029.jpg.webp"); 
+    }
+}
+
+.content-rightimages{
+    padding-top: 15%;
+  padding-left: 10%;
+  display: flex;
+  gap: 150px;
+margin-bottom: 25px;
+
+
+
+}
+
+.container{
+    
+    text-align: center;
+    padding: 10px 20px;
+    color: black;
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+}
+
+
+.footer{
+    height: 50px;
+}
+
+
